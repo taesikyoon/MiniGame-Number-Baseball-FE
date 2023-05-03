@@ -1,9 +1,9 @@
-import CreateRandomCode from "./component/randomNumbers";
+import NumberBaseballGame from "./component/randomNumbers";
 
 const PlayGame = () => {
   return (
     <>
-      <CreateRandomCode />
+      <NumberBaseballGame />
     </>
   );
 };

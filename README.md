@@ -1,38 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# front End
 
-## Getting Started
+[miro 내맘대로 화면 구상(Click)](https://miro.com/app/board/uXjVP3p3Izw=/)
 
-First, run the development server:
+## 현재 컴퓨터 대전 만드는 중
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 첫 페이지 제작(날짜 잊어먹음)
+  - 컴퓨터와 대전하기, 유저와 대전하기 버튼 완료(날짜 까먹음)
+- Game Page(only computer match)
+  - 랜덤 번호 생성하기 완료
+  - 선공 후공(만들지 말지 미정)
+  - 컴퓨터 대전 난이도 고르기
+- 컴퓨터와 대전하기(05/03)
+  - 컴퓨터와 대전하는 화면 설계 중(05/03)
+  - 컴퓨터 숫자 맞추는 알고리즘 만드는 중(05/03)
