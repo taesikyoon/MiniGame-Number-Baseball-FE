@@ -19,7 +19,7 @@ class MyDocument extends Document {
 
   render(): JSX.Element {
     return (
-      <Html>
+      <Html lang="ko">
         <Head />
         <body>
           <Main />

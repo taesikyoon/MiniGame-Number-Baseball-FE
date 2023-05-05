@@ -8,7 +8,7 @@ function HomePage() {
           <Link href="games">
             <button
               type="button"
-              className="bg-blue-500 text-white px-8 py-4 rounded m-10"
+              className="bg-yellow-500 text-white px-8 py-4 rounded m-10"
               style={{ fontSize: "50px", width: "500px", height: "500px" }}
             >
               컴퓨터와 대전하기
@@ -16,7 +16,7 @@ function HomePage() {
           </Link>
           <button
             type="button"
-            className="bg-blue-500 text-white px-8 py-4 rounded m-10"
+            className="bg-yellow-500 text-white px-8 py-4 rounded m-10"
             style={{ fontSize: "50px", width: "500px", height: "500px" }}
           >
             유저와 대전하기

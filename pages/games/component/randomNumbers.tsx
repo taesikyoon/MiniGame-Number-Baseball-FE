@@ -14,13 +14,14 @@ export default function NumberBaseballGame() {
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
 
   const startGameBtn = () => {
-    console.log("Start !!! ");
+    alert("start !!!");
   };
 
   const setRandomNumbers = () => {
     const numbers = generateRandomNumbers(4);
     console.log(numbers.join(""));
     setInputValue(numbers.join(""));
+    setIsButtonDisabled(false);
   };
   const checkNumericAndUnique = (numbers: string[]) => {
     if (!/^[0-9]*$/.test(numbers.join(""))) return true;
@@ -50,7 +51,7 @@ export default function NumberBaseballGame() {
           />
         </div>
         <button
-          className={`px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 mr-2`}
+          className={`px-4 py-2 bg-yellow-500 text-white rounded hover:bg-blue-600 mr-2`}
           onClick={setRandomNumbers}
         >
           랜덤 숫자 생성하기
@@ -59,7 +60,7 @@ export default function NumberBaseballGame() {
       </div>
       <div>
         <button
-          className={`px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 mr-2`}
+          className={`px-4 py-2 bg-yellow-500 text-white rounded hover:bg-blue-600 mr-2`}
           onClick={startGameBtn}
           disabled={isButtonDisabled}
         >
