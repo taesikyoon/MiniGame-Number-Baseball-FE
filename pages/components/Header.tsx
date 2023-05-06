@@ -14,6 +14,7 @@ import {
   PhoneIcon,
   PlayCircleIcon
 } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 const products = [
   {
@@ -66,10 +67,10 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <p className="font-semibold">HOME</p>
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
